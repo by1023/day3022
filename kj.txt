@@ -1,0 +1,46 @@
+modules
+
+     把store 里的state ,mutations ,actions.getters,
+      变成一个独立的对象
+      export default {
+         state对象 或 mutaions对象。。。。
+      }
+      有四个文件
+     用 index.js 把合成一个
+     引入这个四个文件
+     export default {
+	state,mutations,actions.getters
+    }
+
+    store
+      index.js 文件中
+     引入模块
+	export default {
+	 modules: 模块的名字
+	}
+
+  mapState mapGetters 在computed里用
+  mapMutations mapActions 在methods里用
+
+  cnpm i node-sass sass-loader -D
+
+sass语法
+   $变量
+   嵌套
+  @import './assets/style/reset.css'
+
+混合
+   @mixin 名字（参数）{
+
+   }
+
+
+    &  取得上一个选择器
+   @include 混合的名字
+
+继承
+  @extend name1,name2....
+    
+http://106.12.193.193:3000/
+
+http://fontawesome.dashgame.com/ 图标库
